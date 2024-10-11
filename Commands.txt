@@ -1,0 +1,14 @@
+LabEnv:
+
+dcbuild
+dcup
+sudo gedit /etc/hosts
+--------------------------------
+taskes:
+dockps
+docksh attacker-10.9.0.105
+cd /var/www/attacker
+nano addfriend.html
+nano editprofile.html
+docksh elgg-10.9.0.5
+nano /var/www/elgg/vendor/elgg/elgg/engine/classes/Elgg/Security/Csrf.php
